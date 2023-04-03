@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _memset - ironnou
- * @s: pointer to char params
- * @b: data to change
- * @n: index
+ * _memset - yep
+ * @s: hurray
+ * @b: hi
+ * @n: hello
  * Return: *s
  */
 
