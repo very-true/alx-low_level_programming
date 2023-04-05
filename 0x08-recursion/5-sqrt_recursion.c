@@ -19,7 +19,7 @@ int _sqrt_recursion(int n)
  * square of numbs
  * @n: sq root
  * @i: looper
- * Return: some answers 
+ * Return: some answers
  */
 int actual_sqrt_recursion(int n, int i)
 {
