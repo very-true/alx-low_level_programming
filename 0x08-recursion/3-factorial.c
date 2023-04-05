@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * factorial - token 
+ * factorial - token
  * @n: number
  * Return: roman
  */
