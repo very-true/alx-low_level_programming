@@ -2,8 +2,8 @@
 
 /**
  * _pow_recursion - taken
- * x: an integer
- * y: an integer too
+ * @x: an integer
+ * @y: an integer too
  * Return: nothing really
  */
 
