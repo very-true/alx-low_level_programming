@@ -4,8 +4,8 @@
 
 /**
  * str_concat - it adds the two strings
- * @s1: string number one 
- * @s2: string number two 
+ * @s1: string number one
+ * @s2: string number two
  * Return: mnew space for the pointer
  */
 char *str_concat(char *s1, char *s2)

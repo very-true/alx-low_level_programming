@@ -3,7 +3,7 @@
 
 /**
  * _strdup - a new space for the pointer
- * @str: origin of the string 
+ * @str: origin of the string
  * Return: a duplicate of the array
  */
 

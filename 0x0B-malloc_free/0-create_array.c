@@ -3,8 +3,8 @@
 
 /**
  * create_array - i used this to creae an array
- * @size: the dimension of the array 
- * @c:the value before 
+ * @size: the dimension of the array
+ * @c:the value before
  * Return: for the pointer
  */
 char *create_array(unsigned int size, char c)
