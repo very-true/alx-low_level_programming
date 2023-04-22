@@ -1,50 +1,50 @@
 #include "variadic_functions.h"
 
 /**
- * print_all - joker
- * @format: loki
- * Return: captain barbosa
+ * print_all - aaa
+ * @format: bbb
+ * Return: ccc
  */
 
 void print_all(const char * const format, ...)
 {
-	int a;
-	int b;
-	char *c;
+	int i;
+	int flag;
+	char *str;
 	va_list a_list;
 
 	va_start(a_list, format);
-	a = 0;
-	while (format != NULL && format[a] != '\0')
+	i = 0;
+	while (format != NULL && format[i] != '\0')
 	{
-		switch (format[a])
+		switch (format[i])
 		{
 			case 'c':
 				printf("%c", va_arg(a_list, int));
-				b = 0;
+				flag = 0;
 				break;
 			case 'i':
 				printf("%i", va_arg(a_list, int));
-				b = 0;
+				flag = 0;
 				break;
 			case 'f':
 				printf("%f", va_arg(a_list, double));
-				b = 0;
+				flag = 0;
 				break;
 			case 's':
-				c = va_arg(a_list, char*);
-				if (c == NULL)
-					c = "(nil)";
+				str = va_arg(a_list, char*);
+				if (str == NULL)
+					str = "(nil)";
 				printf("%s", str);
-				c = 0;
+				flag = 0;
 				break;
 			default:
-				b = 1;
+				flag = 1;
 				break;
 		}
-		if (format[a + 1] != '\0' && b == 0)
+		if (format[i + 1] != '\0' && flag == 0)
 			printf(", ");
-		a++;
+		i++;
 	}
 	printf("\n");
 	va_end(a_list);
